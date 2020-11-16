@@ -1,80 +1,67 @@
-# Unit 11 Express Homework: Note Taker
+# Note-Taker
 
-## Description
+## Description 
 
-Create an application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.
+ what, why, and how. What was your motivation? Why did you build this project? What problem does it solve? What did you learn? What makes your project stand out? If your project has a lot of features, consider adding a heading called "Features" and listing them here.
 
-* The application frontend has already been created, it's your job to build the backend and connect the two.
+If you need an example of a good README, check out [the VSCode repository](https://github.com/microsoft/vscode).
 
-* The following HTML routes should be created:
 
-  * GET `/notes` - Should return the `notes.html` file.
+## Table of Contents (Optional)
 
-  * GET `*` - Should return the `index.html` file
+If your README is very long, add a table of contents to make it easy for users to find what they need.
 
-* The application should have a `db.json` file on the backend that will be used to store and retrieve notes using the `fs` module.
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
 
-* The following API routes should be created:
 
-  * GET `/api/notes` - Should read the `db.json` file and return all saved notes as JSON.
+## Installation
 
-  * POST `/api/notes` - Should receive a new note to save on the request body, add it to the `db.json` file, and then return the new note to the client.
+What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
-  * DELETE `/api/notes/:id` - Should receive a query parameter containing the id of a note to delete. This means you'll need to find a way to give each note a unique `id` when it's saved. In order to delete a note, you'll need to read all notes from the `db.json` file, remove the note with the given `id` property, and then rewrite the notes to the `db.json` file.
 
-## User Story
+## Usage 
 
-AS A user, I want to be able to write and save notes
+Provide instructions and examples for use. Include screenshots as needed. 
 
-I WANT to be able to delete notes I've written before
 
-SO THAT I can organize my thoughts and keep track of tasks I need to complete
+## Credits
 
-## Business Context
+List your collaborators, if any, with links to their GitHub profiles.
 
-For users that need to keep track of a lot of information, it's easy to forget or be unable to recall something important. Being able to take persistent notes allows users to have written information available when needed.
+If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
 
-## Acceptance Criteria
+If you followed tutorials, include links to those here as well.
 
-Application should allow users to create and save notes.
 
-Application should allow users to view previously saved notes.
 
-Application should allow users to delete previously saved notes.
+## License
 
-## Deploying the App
+The last section of a good README is a license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, use [https://choosealicense.com/](https://choosealicense.com/)
 
-You will not be able to deploy your server side code on GitHub pages. This app should be deployed on Heroku. Carefully follow the [Heroku Guide](../04-Supplemental/HerokuGuide.md) for getting your app deployed on Heroku.
 
-- - -
+---
 
-## Commit Early and Often
+🏆 The sections listed above are the minimum for a good README, but your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
 
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+## Badges
 
-* Your commit history is a signal to employers that you are actively working on projects and learning new skills.
+![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 
-* Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
+Badges aren't _necessary_, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
 
-Follow these guidelines for committing:
 
-* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
+## Contributing
 
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
+If you created an application or package and would like other developers to contribute it, you will want to add guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own.
 
-* Don't commit half-done work, for the sake of your collaborators (and your future self!).
+## Tests
 
-* Test your application before you commit to ensure functionality at every step in the development process.
+Go the extra mile and write tests for your application. Then provide examples on how to run them.
 
-We would like you to have well over 200 commits by graduation, so commit early and often!
 
-## Submission on BCS
-
-You are required to submit the following:
-
-* The URL of the deployed application. This should be the link to the url provided by Heroku. Be sure not to submit a link to the Heroku dashboard.
-
-* The URL of the GitHub repository
-
-- - -
+---
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+

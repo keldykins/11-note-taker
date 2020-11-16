@@ -4,10 +4,17 @@
 // These data sources hold arrays of information on table-data, waitinglist, etc.
 // ===============================================================================
 const fs = require("fs");
-
+const path = require("path");
+const notes = require("../db/db.json");
 // ===============================================================================
 // ROUTING
 // ===============================================================================
+const saveNotes = function () {
+  fs.writeFileSync(
+    path.resolve(__dirname, "../db/db.json"),
+    JSON.stringify(notes)
+  );
+};
 
 module.exports = function (app) {
   // API GET Requests
@@ -18,7 +25,7 @@ module.exports = function (app) {
 
   app.get("/api/notes", function (req, res) {
     // Read from the db.json file using fs, res.json the response
-    //res.json(tableData);
+    res.json(notes.map((note, id) => ({ ...note, id })));
   });
 
   // API POST Requests
@@ -31,6 +38,9 @@ module.exports = function (app) {
 
   app.post("/api/notes", function (req, res) {
     console.log(req.body);
+    notes.push(req.body);
+    saveNotes();
+    res.json(notes.map((note, id) => ({ ...note, id })));
     // Read from db.json again using fs
     // Push in the note with an id
     // Write to db.json using fs
@@ -42,6 +52,9 @@ module.exports = function (app) {
 
   app.delete("/api/notes/:id", function (req, res) {
     console.log(req.params);
+    notes.splice(req.params.id, 1);
+    saveNotes();
+    res.json(notes.map((note, id) => ({ ...note, id })));
     // Read from db.json again using fs
     // Use a for loop to find the one that matches the req.params.id and delete it
     // Write to db.json again using fs
