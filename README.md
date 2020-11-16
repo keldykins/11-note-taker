@@ -2,14 +2,10 @@
 
 ## Description 
 
- what, why, and how. What was your motivation? Why did you build this project? What problem does it solve? What did you learn? What makes your project stand out? If your project has a lot of features, consider adding a heading called "Features" and listing them here.
-
-If you need an example of a good README, check out [the VSCode repository](https://github.com/microsoft/vscode).
+Note app used to write, save, and delete notes. This application uses an express backend to save and retrieve note data from a JSON file.
 
 
 ## Table of Contents (Optional)
-
-If your README is very long, add a table of contents to make it easy for users to find what they need.
 
 * [Installation](#installation)
 * [Usage](#usage)
@@ -18,50 +14,46 @@ If your README is very long, add a table of contents to make it easy for users t
 
 
 ## Installation
+Direct to heroku application to view demo of deployed app, or download repo and use node to open server.js file in terminal.
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
 
 ## Usage 
 
-Provide instructions and examples for use. Include screenshots as needed. 
+Direct to landing page and click "get started" to view and edit notes
+<img width="846" alt="Screen Shot 2020-11-16 at 2 43 15 PM" src="https://user-images.githubusercontent.com/66789135/99311706-35b13a00-281a-11eb-8494-cb1e9f426055.png">
+
+Add a note title, text and save, view, and delete notes.
+<img width="1263" alt="Screen Shot 2020-11-16 at 2 43 50 PM" src="https://user-images.githubusercontent.com/66789135/99311710-377afd80-281a-11eb-91d4-2ef621db0ab8.png">
+
 
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+Keldan Cundy https://github.com/keldykins
 
 
 
 ## License
 
-The last section of a good README is a license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, use [https://choosealicense.com/](https://choosealicense.com/)
+MIT License
 
+Copyright (c)2020 Keldan Cundy
 
----
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-🏆 The sections listed above are the minimum for a good README, but your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-
-Badges aren't _necessary_, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-
-## Contributing
-
-If you created an application or package and would like other developers to contribute it, you will want to add guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them.
-
-
----
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
-
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
