@@ -1,38 +1,18 @@
-# Note-Taker
+# Note Taker
 
 ## Description 
 
 Note app used to write, save, and delete notes. This application uses an express backend to save and retrieve note data from a JSON file.
 
-
-## Table of Contents (Optional)
-
-* [Installation](#installation)
-* [Usage](#usage)
-* [Credits](#credits)
-* [License](#license)
-
-
-## Installation
-Direct to heroku application to view demo of deployed app, or download repo and use node to open server.js file in terminal.
-
-
-
 ## Usage 
 
-Direct to landing page and click "get started" to view and edit notes
-<img width="846" alt="Screen Shot 2020-11-16 at 2 43 15 PM" src="https://user-images.githubusercontent.com/66789135/99311706-35b13a00-281a-11eb-8494-cb1e9f426055.png">
+https://arcane-ridge-93672.herokuapp.com/
 
-Add a note title, text and save, view, and delete notes.
-<img width="1263" alt="Screen Shot 2020-11-16 at 2 43 50 PM" src="https://user-images.githubusercontent.com/66789135/99311710-377afd80-281a-11eb-91d4-2ef621db0ab8.png">
+## Contact
 
-
-
-## Credits
-
-Keldan Cundy https://github.com/keldykins
-
-
+Github: [keldykins](http://github.com/keldykins)
+<br />
+Email: [kelcundy@gmail.com](kelcundy@gmail.com)
 
 ## License
 
@@ -57,3 +37,13 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+## Screenshots
+
+Direct to landing page and click "get started" to view and edit notes
+
+<img width="846" alt="Screen Shot 2020-11-16 at 2 43 15 PM" src="https://user-images.githubusercontent.com/66789135/99311706-35b13a00-281a-11eb-8494-cb1e9f426055.png">
+
+Add a note title, text and save, view, and delete notes.
+
+<img width="1263" alt="Screen Shot 2020-11-16 at 2 43 50 PM" src="https://user-images.githubusercontent.com/66789135/99311710-377afd80-281a-11eb-91d4-2ef621db0ab8.png">
